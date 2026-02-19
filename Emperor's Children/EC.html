@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Emperor's Children</title>
+		<link rel="stylesheet" href="EC.css">
+		<link rel="stylesheet" href="../styles.css">
+	</head>
+	<body class="with-vertical-nav">
+		<button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+		<aside class="vertical-nav">
+			<a href="../index.html">Home</a>
+			<a href="../FirstLegion/Lion.html">First Legion</a>
+			<a href="EC.html">Emperor's Children</a>
+			<a href="../Iron Warriors/IronWarrior.html">Iron Warriors</a>
+		</aside>
+		<header>
+			<h1>Emperor's Children</h1>
+		</header>
+
+		<main>
+			<section>
+				<h2>About</h2>
+				<p>This is a section for the Emperor's Children chapter.</p>
+			</section>
+
+			<section>
+				<h2>Emperor's Children</h2>
+				<p>Emperor's Children are led by the Primarch Fulgrim, known for his charisma and tactical brilliance and ego.</p>
+				<img src="../Images/sample.jpg"
+					 srcset="../Images/sample-480.jpg 480w, ../Images/sample-800.jpg 800w, ../Images/sample.jpg 1200w"
+					 sizes="(max-width:600px) 100vw, 50vw"
+					 alt="Sample">
+			</section>
+		</main>
+
+		<footer>
+			<p>&copy; <span id="year"></span> Emperor's Children</p>
+		</footer>
+
+		<script src="../nav.js"></script>
+		<script>
+			document.getElementById('year').textContent = new Date().getFullYear();
+		</script>
+	</body>
+</html>
+
